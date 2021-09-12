@@ -10,10 +10,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="mystyle.css">
   <script type="text/javascript">
-document.addEventListener("contextmenu",function(x)
-{
-  x.preventDefault();
-}
+  window.oncontextmenu=function()
+  {
+return false;
+  }
 
   </script>
 </head>
@@ -82,7 +82,7 @@ document.addEventListener("contextmenu",function(x)
       </nav>
       <div class="jumbotron text-center" style="margin-bottom:0">
         <h5>Diploma Programme-Design Technology</h5>
-        <p>Criterians-New requirements of 2020- Test</p>
+        <p>Criterians-New requirements of 2020- Test1</p>
         <a href="dpcriteriaA.html" class="btn btn-primary" role="button">Criteria A</a>
         <a href="#" class="btn btn-secondary" role="button">Criteria B</a>
         <a href="#" class="btn btn-success" role="button">Criteria C</a>
